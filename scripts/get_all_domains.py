@@ -17,5 +17,6 @@ if __name__ == "__main__":
         else:
             domain_map[domain] = 1
 
-    for dn, hit in sorted(domain_map.items(), key=operator.itemgetter(1)):
-        print(hit, dn)
+    with open("output.txt", "w") as out:
+        for dn, hit in domain_map.items():
+            out.write('%d %s\n' % (dn, hit))

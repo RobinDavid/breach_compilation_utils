@@ -4,7 +4,7 @@ Small utility class to manipulate more easily the 41Go login/pwd
 breach. The script folder contains all the scripts using this module.
 
 > Disclaimer: This module does not intent to be polished or clean, but
-rather quick and dirty and used for testing purposes.
+rather quick and dirty for testing purposes.
 
 ## Using it
 
